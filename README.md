@@ -3,7 +3,8 @@
 This is a set of useful python notebooks related to photometric surveys and redshift estimation from noisy flux measurements.
 
 Content:
-- *BPZ_survey_mock.ipynb*: notebook to generate a photometric survey mock, with realistic fluxes, redshifts and underlying galaxy types, based on [BPZ](http://www.stsci.edu/~dcoe/BPZ/), which is required.
+- *Photoz galaxy survey mock and N(z) inference.ipynb*: notebook to generate a photometric survey mock, with realistic fluxes, redshifts and underlying galaxy types. Also recovers the underlying distributions via the hierarchical model/sampling of Leistedt, Mortlock and Peiris (2016).
+- *bayeshist.py*: MPI implementation of the hierarchical model and Gibbs sampler of Leistedt, Mortlock and Peiris (2016) for inferring histograms of underlying distributions with binned likelihoods.
 - *filters* and *seds* contain copies of the CWW galaxy SED templates and the SDSS photometric filters.
 
 Contributors:
